@@ -3,9 +3,9 @@
 
 char lineData[6];
 int ints[2000];
+
 int main() {
     FILE * inputFile = fopen ("./input/day1.txt", "r");
-    char lineData[6];
     int currentLine = 0;
     
     while (fgets(lineData, 6, inputFile) != NULL) {
@@ -32,4 +32,6 @@ int main() {
     }
 
     printf("Sums increased (pt 2): %i\n", increasedTimes);  
+    
+    return 0;
 }
