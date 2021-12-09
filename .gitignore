@@ -3,3 +3,5 @@
 .gitattributes
 .vs
 *.exe
+*.out
+.vscode

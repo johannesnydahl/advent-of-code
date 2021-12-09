@@ -30,7 +30,7 @@ int main() {
 
     fclose(inputFile);
     inputFile = fopen("./input/day2.txt", "r");
-
+    
     while (fgets(lineData, 11, inputFile) != NULL) {
         currentNumber = atoi(&lineData[strcspn(lineData, "\n") - 1]);        
         if (lineData[0] == 'u') {
