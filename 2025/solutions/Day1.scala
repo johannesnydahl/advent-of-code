@@ -4,7 +4,7 @@ object Day1 extends Day(1):
     enum Dir:
         case Right, Left
 
-    @main def main(): Unit =
+    @main def main1: Unit =
         var pos: Int = 50
         var sum: Int = 0
 
